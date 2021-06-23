@@ -11,7 +11,7 @@
 # print("Welcome, " + Full_Name.strip())
 
 # Task 3
-age_rating = 15
+age_rating = 13
 
 if age_rating == "universal":
     print("Everyone can watch!")
@@ -23,3 +23,5 @@ elif age_rating == 15:
     print("No one younger than 15 may see a 15 film in a cinema")
 elif age_rating == 18:
     print("No one younger than 18 may see an 18 film in cinema")
+else:
+    print("Incorrect age rating has been entered!")
